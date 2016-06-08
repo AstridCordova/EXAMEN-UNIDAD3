@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  	<meta charset="utf-8">
+	  	<title>Whatsapp Web</title>
+	  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	  	<link rel="shortcut icon" href="image/favicon.png" type="image/png">
+	  	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600%7CRoboto:300,400,500" media="all">
+	    
+	    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	    <link rel="stylesheet" type="text/css" href="css/queries.css">
+	    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	    <link rel="stylesheet" type="text/css" href="css/icomoon.css">
+	    <link rel="stylesheet" type="text/css" href="css/main.css">
+	   
+
+	</head>
+	<body>
+	   
+	   <div class="container-fluid cabecera">
+	   </div>
+	   
+
+	   <div class="container whatsapp">
+	    <div class="row">
+	      
+	       <div class="col-md-4">
+
+	         <div class="profile">
+
+	           <img src="image/gian.jpg">
+	           <i class="icon-dots-three-vertical"></i>
+	           <i class="icon-message"></i>
+               
+	         </div>
+
+	         <form class="buscador">
+                <input type="search" placeholder="Buscar o empezar un chat nuevo" id="buscar" value="">
+                <i class="icon-search"></i></input>
+           </form>
+            
+           <div class="contactos">
+
+             <div class="contact" data-id="0" onclick="newConversacion()">
+                <img src="image/logocodeacademy.png">
+                   
+                <div class="h-p">
+                  <h5>Laboratoria Perú</h5>
+                  <p>Aldo:Dale dale!</p>
+                </div>
+
+                <p class="hora">14:25</p>
+             </div>
+
+             <div class="contact" data-id="1" onclick="newConversacion()">
+                <img src="image/raymi.jpg">
+
+                <div class="h-p">
+                   <h5>Raymi Saldomando</h5>
+                   <p>La clase va bien!</p>
+                </div>
+
+                <p class="hora">11:25</p>
+             </div>
+
+             <div class="contact" data-id="2" onclick="newConversacion()">
+                <img src="image/mariana.jpg">
+
+                <div class="h-p">
+                   <h5>Mariana Costa</h5>
+                   <p>El panel de speakers esta buenazo</p>
+                </div>
+
+                <p class="hora">09:25</p>
+             </div>
+
+             <div class="contact" data-id="3" onclick="newConversacion()">
+                <img src="image/anamaria.jpg">
+
+                <div class="h-p">
+                   <h5>Ana María Martinez Franklin</h5>
+                   <p>Pues dale chamo!</p>
+                </div>
+
+                <p class="hora">Ayer</p>
+             </div>
+
+             <div class="contact" data-id="4" onclick="newConversacion()">
+                <img src="image/rodulfo.jpg">
+
+                <div class="h-p">
+                   <h5>Rodulfo Prieto</h5>
+                   <p>Como van las chicas?<p>
+                </div>
+
+                <p class="hora">Martes</p>
+             </div>
+
+             <div class="contact" data-id="5" onclick="newConversacion()">
+                <img src="image/andrea.jpg">
+
+                <div class="h-p">
+                   <h5>Andrea Lamas</h5>
+                   <p>Hoy me toca clases de canto, yee!</p>
+                </div>
+
+                <p class="hora">Lunes</p>
+             </div>
+
+             <div class="contact" data-id="6" onclick="newConversacion()">
+                <img src="image/mariapaula.jpg">
+
+                <div class="h-p">
+                   <h5>Maria Paula Rivarola</h5>
+                   <p>Wuju! esto me encanta!! en verdad!</p>
+                </div>
+
+                <p class="hora">13/01/2016</p>
+             </div>
+
+             <div class="contact" data-id="7" onclick="newConversacion()">
+                <img src="image/katy.jpg">
+
+                <div class="h-p">
+                   <h5>Katy Sanchez</h5>
+                   <p>No te preocupes, tengo el salón bajo control</p>
+                </div>
+
+                <p class="hora">11/01/2016</p>
+             </div>
+
+             <div class="contact" data-id="8" onclick="newConversacion()">
+                <img src="image/aldo.jpg">
+
+                <div class="h-p">
+                   <h5>Aldo Alfaro</h5>
+                   <p>Vao a comer?</p>
+                </div>
+
+                <p class="hora">03/01/2016</p>
+             </div>
+            
+           </div>
+
+         </div> 
+
+	       <div class="col-md-8">
+
+              <div id="chat" class="chat">
+                
+                <img src="image/logocodeacademy.png">
+
+                   <div class="chat-hp">
+                    <h5>Laboratoria Perú</h5>
+                    <p>Ana María,Aldo, Gian,Mariana,Papu,Tú</p>
+                   </div>
+
+                <i class="icon-dots-three-vertical"></i>
+                <i class="icon-attachment"></i>
+
+              </div>   
+
+                <div id="conversacion">
+
+                   <!-- <div class="msj andrea">
+                     <h5>Andrea Lamas</h5>
+                     <p>Chicos han visto el nuevo corte de Aldo?</p>
+                     <p class="hora-chat">11:12</p>
+                   </div>
+
+                   <div class="msj mariana">
+                     <h5>Mariana Costa</h5>
+                     <p>Finalmente se corto?</p>
+                     <p class="hora-chat">11:13</p>
+                   </div>
+
+                   <div class="msj mariapaula">
+                     <h5>Maria Paula Rivarola</h5>
+                     <p>Jajaja Sii finalmente se corto!!</p>
+                     <p class="hora-chat">11:13</p>
+                   </div>
+
+                   <div class=" msj yo">
+                      <p>Antes parecia mufasa jajajaja</p>
+                      <p class="hora-chat">11:14</p>
+                   </div>
+                   
+
+                   <div class=" msj yo">
+                      <p>Ahora si esta decente</p>
+                      <p class="hora-chat">11:18</p>
+                   </div>
+
+                   <div class="msj andrea">
+                     <h5>Andrea Lamas</h5>
+                     <p>Porque se lo habrá cortado?</p>
+                     <p class="hora-chat">11:20</p>
+                   </div>
+
+
+                    <div class="msj aldo">
+                     <h5>Aldo Alfaro</h5>
+                     <p>Ya ya ya, hacia mucho calor que más</p>
+                     <p class="hora-chat">11:25</p>
+                   </div>
+
+                    <div class="msj andrea">
+                     <h5>Andrea Lamas</h5>
+                     <p>Estas siguiendo los pasos Juan Diego!</p>
+                     <p class="hora-chat">11:30</p>
+                   </div>
+
+                   <div class="msj mariapaula">
+                     <h5>Maria Paula Rivarola</h5>
+                     <p>Nunca!!! Juan Diego es núnico</p>
+                     <p class="hora-chat">11:31</p>
+                   </div> -->
+
+                </div>
+
+                <div class="redaccion">
+                   	  <i class="icon-insert_emoticon"></i>
+                   	    
+                   	    <form class="escribir-msj">
+                   	    	<input type="text"placeholder="Escribe tu mensaje aquí" id="textmsj"></input>
+                          <button type="button" onclick="mandarMensaje()">Enviar</button>
+                   	    </form>
+
+                   	  
+                </div>
+
+           </div>    
+  
+        
+	    </div>
+	   </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+	</body>
+</html>

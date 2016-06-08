@@ -1,0 +1,229 @@
+body { background: #DFDFDF; }
+
+.container  { width: 900px; }
+
+.cabecera { 
+    background: #009688;
+    height: 100px;
+}
+
+.col-md-8 { padding: 0%; }
+
+.col-md-4 { padding: 0%; }
+
+.whatsapp { 
+	position: relative;
+    top: -80px;
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+.profile { 
+	background: #DFDFDF;
+	padding: 2% 3%; }
+
+.profile img { 
+    width: 9%;
+    border-radius: 100%;
+}
+
+.profile i { 
+	float: right;
+    margin: 3%;
+    font-size: 15px;
+}
+
+.buscador  { 
+   padding: 3% 3% 6% 3%;
+   background: white;
+   border-bottom: 2px solid #DFDFDF;
+   border-top: 1px solid #DFDFDF;  
+}
+
+.buscador input { 
+   width: 292px;
+   position: absolute;
+   padding: 1.5% 1% 1.5% 13%;
+   border-style: none;
+   border: 1px solid #DFDFDF;
+   border-radius: 4px;
+   font-size: 12px;
+}
+
+.buscador i { 
+   position: relative;
+   top: 5px;
+   left: 17px;
+   color: #DFDFDF;
+   font-size: 12px;
+}
+
+.contactos {
+   overflow: auto;
+}
+
+.contactos::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.contact {
+    background: #FEFEFE;
+    border-bottom: 1px solid #DFDFDF;
+    padding: 0% 3%;
+    height: 55px;
+    position: relative;
+}
+
+ .h-p h5 { 
+ 	font-size: 13.5px;
+ 	margin: 2% 0%; 
+ }
+
+ .h-p p { 
+ 	margin: 0 0 3px;
+ 	font-size: 11.5px; 
+ }
+
+.contact img {
+   width: 10%;
+   border-radius: 100%;
+   position: absolute;
+   top: 10px;
+}
+
+.h-p {
+   display: inline-block;
+   position: absolute;
+   top: 7px;
+   left: 50px;
+}
+
+.hora { 
+    position: absolute;
+    right: 12px;
+    bottom: 18px;
+    text-align: right;
+    font-size: 11.5px;
+}
+
+.chat { 
+	background: #DFDFDF;
+	height: 40px;
+	padding: 0% 3%;
+	border-left: 1px solid;
+	position: relative;
+}
+
+.chat img { 
+    width: 4.5%; 
+    border-radius: 100%;
+    position: absolute;
+    top: 5px;
+}
+
+.chat-hp {
+    display: inline-block;
+    position: relative;
+    left: 40px;
+    top: 6px;
+}
+
+.chat-hp h5 {
+	margin: 0%;
+	font-size: 13.5px;
+}
+
+.chat-hp p { 
+	margin: 0%;
+	font-size: 11.5px;
+}
+
+.chat i { 
+	float: right;
+	margin: 2%;
+	font-size: 15px;
+}
+
+#conversacion {
+	background: url(../image/fondo.jpg);
+	padding: 1%;
+	overflow-y: scroll;
+	height: 495.609px;
+}
+
+.msj { 
+	background: white;
+	width: 50%;
+	padding:1%;
+	margin: 1%;
+	border-radius: 5px;
+	position: relative;
+}
+
+.msj h5{ 
+	margin: 1%;
+	font-size: 13px;
+}
+
+.msj p { 
+	margin: 1%;
+	font-size: 12px;
+}
+
+.andrea h5 { color: #A7DDF6; }
+
+.mariana h5 { color: #EAA1CA; }
+
+.mariapaula h5 { color: #81D4BA; }
+
+.aldo h5 { color: #ECD090; }
+
+.yo {
+    background: #DCF8C6;
+    padding: 1%;
+    padding-bottom: 3%;
+    margin: 1% 1% 1% 49%;
+    border-radius: 5px;
+    display: block;
+    text-align: right;
+}
+
+.hora-chat { 
+	position: absolute;
+	bottom: 0px;
+	right: 5px;
+}
+
+.redaccion { 
+	background: #DFDFDF;
+    padding: 1% 0% 1% 1%; 
+ }
+
+.icon-insert_emoticon {
+	margin: 0% 1%;
+	font-size: 19px;
+}
+
+.escribir-msj {
+	display: inline-block; 
+  width: 90%;
+}
+
+.escribir-msj input{
+  width: 85%;
+}
+
+.mensaje { 
+    width: 530px;
+    height: 31px;
+    font-size: 11.5px;
+    padding: 1.3% 2%;
+    border: none;
+    border-radius: 5px;
+}
+
+.icon-mic {
+	
+	font-size: 17px;
+}
